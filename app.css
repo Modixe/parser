@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    background-color: grey;
+    color: white;
+    padding: .5em;
+    font-family: 'Consolas', serif;
+}
+
+li {
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+.list {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.list-hr {
+    width: 50%;
+}
+
+.GetData {
+    background: rgba(33, 193, 68, 0.74);
+    border-radius: 15px;
+    color: white;
+    width: 10%;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.GetData:hover {
+    background-color: #F7941E;
+}
+.GetData:active {
+    background-color: #F7949E;
+}
+
+.generatedButtonDiv:before  {
+    justify-content: center;
+}
+.generatedButton {
+    background-color: #666666;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 10%;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.generatedButton:hover {
+    background-color: #555555;
+}
+.generatedButton:active {
+    background-color: #777777;
+}
+#count {
+    height: 25px;
+    width: 500px;
+    background: #FFFFFF;
+    border: 3px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
